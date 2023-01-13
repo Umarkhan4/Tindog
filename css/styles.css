@@ -112,3 +112,14 @@ p {
   width: 15%;
   margin: 20px 20px 50px;
 }
+#pricing{
+  padding: 100px;
+  text-align: center;
+
+}
+.pricing-colum{
+  padding: 2% 3%;
+}
+.card{
+  filter: drop-shadow(14px 18px 5px gray );
+}
