@@ -52,12 +52,16 @@ p {
 .title-img {
   width: 60%;
   transform: rotate(20deg);
+  position: relative;
 }
 /* font awesome icons are used  */
 #features {
-  margin-top: 10px;
-  margin-left: 20px;
+  /* margin-top: 10px;
+  margin-left: 20px; */
   padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
 }
 .feature-box {
   padding: 5%;
@@ -122,4 +126,15 @@ p {
 }
 .card{
   filter: drop-shadow(14px 18px 5px gray );
+}
+/* footer  */
+#cta{
+  text-align: center;
+  font-weight: 800;
+  color: #fff;
+  background: rgb(244, 137, 137);
+  padding: 7% 15%;
+}
+#footer{
+  text-align: center;
 }
